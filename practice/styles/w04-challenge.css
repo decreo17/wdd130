@@ -1,0 +1,48 @@
+body {
+    background-color: pink;
+    color: white;
+}
+
+main {
+    width: 30%;
+    margin: 0 auto;
+}
+
+h1:hover {
+    color: black;
+}
+
+q {
+    width: 60%;
+}
+
+ol {
+    color: black;
+    font-weight: bold;
+    text-align: left;   
+}
+
+h1, p, q {
+    text-align: center;
+}
+
+img {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+q {
+    display: block;
+    font-size: 2em;
+    margin: 50px auto;
+}
+
+.pres-nelson {
+    color: black;
+}
+
+.education, pres-nelson {
+    padding: 20px;
+}
+
