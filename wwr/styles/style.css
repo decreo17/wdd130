@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap');
+
 body {
     background-color: #e1d6d6;
+    margin: 0;
+    padding: 0;
 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+p, a {
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 #content {
@@ -12,6 +28,7 @@ nav a {
     text-align: center;
     color: #492F0A;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -32,6 +49,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #492F0A;
@@ -45,6 +66,10 @@ header {
     background-color: #073DAB;
     color: #e1d6d6;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -59,11 +84,15 @@ h4 {
 
 .home-title {
     color: #492F0A;
+    font-size: 2em;
+    margin-top: 10px;
 
 }
 
 .msg {
     background-color: #f79917;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -73,12 +102,15 @@ h4 {
 
 .msg p {
     color: #000;
-
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #414142 ;
     color: #e1d6d6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -101,8 +133,25 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}   
+
+.card-img {
+    border: 10px solid #492F0A; 
 }
