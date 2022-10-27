@@ -31,14 +31,14 @@ nav {
 
 nav a {
     text-align: center;
-    color: #492F0A;
+    color: #e1d6d6;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
     background-color: #073DAB;
-    color: #e1d6d6;
+    color: #000;
 }
 
 .button-box {
@@ -244,6 +244,7 @@ footer .social img {
     nav a {
         display: block;
         padding: 15px;
+        
     }
     #hero {
         margin-top: 0;
