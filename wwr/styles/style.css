@@ -31,14 +31,14 @@ nav {
 
 nav a {
     text-align: center;
-    color: #e1d6d6;
+    color: #492F0A;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
     background-color: #073DAB;
-    color: #000;
+    color: #e1d6d6;
 }
 
 .button-box {
