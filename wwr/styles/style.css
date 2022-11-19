@@ -357,5 +357,10 @@ Rivers
     footer {
         margin-top: 25px;
     }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+    }
 }
             
