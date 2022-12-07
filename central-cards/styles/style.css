@@ -1,0 +1,336 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap');
+
+/*
+* High-emphasis text should have an opacity of 87%
+* Medium emphasis text is applied at 60%
+* Disabled text uses an opacity of 38%.
+*/
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #5EC57E   ;
+  --secondary-color: #1C244B ;
+  --accent1-color: #7ED957;
+  --accent2-color: #41702D;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Open Sans", Helvetica, Georgia;
+  --paragraph-font: "Source Sans Pro", Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #1C244B;  /* headlines on a white background */ 
+  --headline-color-on-color: #1C244B; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #1C244B; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #5EC57E  ;
+  --nav-link-color: #FFF;
+  --nav-background-color: #41702D;
+  --nav-hover-link-color: #1C244B;
+  --nav-hover-background-color: #7ED957;
+}
+
+.r-white {
+  color: #fff;
+}
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  margin: 0 auto;
+  font-size: 18px;
+  
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+
+header {
+  color: var(--paragraph-color-on-color);
+  background-color: var(--nav-background-color);
+  display: grid;
+  grid-template-columns: 150px auto;
+  opacity: .8;
+}
+
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+ 
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-around;
+  grid-column: 2/3;
+}
+
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+}
+
+.social-logo {
+    width: 1.5em;
+}
+
+footer {
+    background-color: #414142 ;
+    color: #e1d6d6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: grid;
+}
+
+footer span{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0.3em;
+}
+
+#about-splinterlands-p a, footer a {
+    color: #e1d6d6;
+    text-decoration: none;
+
+}
+#about-splinterlands-p a:hover,footer a:hover {
+    color: var(--nav-hover-background-color);
+    text-decoration: underline;
+}
+
+.footer-info {
+    font-size: 1.2em;
+}
+
+.footer-disclamer {
+    font-size: 0.75em;
+}
+
+.sub-header {
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+/*HOME*/
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 10%;
+    
+}
+
+.home-grid h1 {
+    grid-column: 1/2;
+}
+
+.home-goal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 75%;
+    align-items: center;
+    margin: auto;
+}
+
+.home-goal h2 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.home-goal p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.home-goal img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 15em;
+}
+
+#splinterlands-logo {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.home-about-splinterlands {
+  position: relative;
+}
+
+#about-splinterlands {
+  width: 100%;
+}
+
+#about-splinterlands-sm {
+  display: none;
+}
+
+#about-splinterlands-p {
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  color: var(--nav-link-color);
+  width: 50%;
+  font-size: 1.005vw;
+  background: rgb(94, 197, 126, .2);
+  padding: 2%;
+}
+
+@media screen and (max-width: 900px) {
+ 
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+  
+    footer {
+        margin-top: 25px;
+        display: grid;
+    }
+
+    footer span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-goal {
+      display: flex;
+      grid-column: 1/2;
+      grid-row: 2/3;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      flex-direction: column;
+    }
+
+    .home-goal img {
+      margin: 0;
+    }
+
+    #about-splinterlands {
+      display: none;
+    }
+
+    #about-splinterlands-p {
+      position: relative;
+      top: -6.5%;
+      left: 0%;
+      color: black;
+      width: 100%;
+      font-size: 1em;
+      background: rgb(94, 197, 126, .2);
+      padding: 2%;
+    }
+
+    #about-splinterlands-sm {
+      display: block;
+      width: 100%;
+    }
+
+    #splinterlands-logo {
+      width: 75%;
+    }
+
+}
+
+
+
+
+
