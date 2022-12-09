@@ -205,6 +205,7 @@ footer span{
 
 
 /*HOME*/
+/*
 .home-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -269,7 +270,10 @@ footer span{
   background: rgb(94, 197, 126, .2);
   padding: 2%;
 }
+*/
+/*Market*/
 
+/*
 @media screen and (max-width: 900px) {
  
     nav, footer {
@@ -329,6 +333,7 @@ footer span{
     }
 
 }
+*/
 
 
 
