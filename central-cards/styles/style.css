@@ -182,8 +182,8 @@ footer span{
 #about-splinterlands-p a, footer a {
     color: #e1d6d6;
     text-decoration: none;
-
 }
+
 #about-splinterlands-p a:hover,footer a:hover {
     color: var(--nav-hover-background-color);
     text-decoration: underline;
@@ -205,7 +205,7 @@ footer span{
 
 
 /*HOME*/
-/*
+
 .home-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -270,7 +270,7 @@ footer span{
   background: rgb(94, 197, 126, .2);
   padding: 2%;
 }
-*/
+
 /*Market*/
 /*
 .card-img {
@@ -281,7 +281,7 @@ footer span{
   list-style: none;
 }
 
-
+*/
 @media screen and (max-width: 900px) {
  
     nav, footer {
@@ -340,8 +340,13 @@ footer span{
       width: 75%;
     }
 
+    #about-splinterlands-p a {
+      color: black;
+      text-decoration: none;
+  }
+  
 }
-*/
+
 
 
 
