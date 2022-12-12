@@ -408,8 +408,20 @@ section ul {
     #about-splinterlands-p a {
       color: black;
       text-decoration: none;
-  }
-  
+    }
+
+    #rent-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #rent-not-authorized {
+      width: 100%;
+      grid-area: 1/1/2/2;
+      margin: auto;
+      padding: 5% 0;
+    }
+
 }
 
 
