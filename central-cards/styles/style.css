@@ -297,6 +297,55 @@ section ul {
   justify-items: center;
 }
 
+/*Rent*/
+.rent-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 10%;
+}
+
+.top-section {
+  text-align: center;
+  margin: 5% 0;
+}
+
+#rent-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: 2/1/3/2;
+  gap: 5%;
+}
+
+.rent-img {
+  width: 100%;
+}
+
+#rent-not-authorized {
+  width: 100%;
+  grid-area: 1/1/2/2;
+  margin: auto;
+  
+}
+
+#rent-authorized {
+  width: 100%;
+  grid-area: 2/2/3/3;
+  margin: auto;
+}
+
+#future-feature {
+  grid-area: 1/2/2/3;
+  font-size: 1vw;
+}
+
+#core-feature {
+  grid-area: 2/1/3/2;
+}
+
+#core-features ul, #future-feature  ul {
+  list-style-type: '\1F44D';
+}
+
 
 @media screen and (max-width: 900px) {
  
